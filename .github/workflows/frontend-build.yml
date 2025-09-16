@@ -23,3 +23,5 @@ jobs:
         run: npm ci
       - name: Build application
         run: npm run build
+      - name: compile application
+        run: npm run test  

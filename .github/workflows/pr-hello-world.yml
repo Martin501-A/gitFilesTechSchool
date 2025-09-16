@@ -3,7 +3,7 @@ name: PR Hello World
 on:
   pull_request:
     types: [opened, reopened, synchronize]
-
+  workflow_dispatch:
 jobs:
   hello:
     runs-on: ubuntu-latest

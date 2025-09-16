@@ -3,7 +3,7 @@
  * @param firstname First name
  * @param lastname Last name
  */
-
+//Change
 export const greeting = (firstname: string, lastname: string) => {
     console.log(`Hello ${firstname} ${lastname}`);
 };

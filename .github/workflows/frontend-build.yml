@@ -28,7 +28,7 @@ jobs:
         run: npm run test 
       - name: audit application
         run: npm audit --audit-level=high
-                - name: Call webhook (POST)
+      - name: Call webhook (POST)
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: |

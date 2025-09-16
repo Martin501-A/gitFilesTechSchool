@@ -9,7 +9,7 @@ const getFizzBuzzValue = (i: number): string => {
     return 'Buzz'
   }
   return `${i}`
-}
+
 
 export const generateFizzBuzz = (n: number): string[] => {
   return new Array(n).fill(0).map((_, i) => getFizzBuzzValue(i + 1))

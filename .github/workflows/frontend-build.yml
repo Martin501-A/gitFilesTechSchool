@@ -2,6 +2,7 @@ name: Build frontend app
 
 on:
   pull_request:
+    types: [opened, reopened, synchronize]
     paths:
       - 'app/**'
       - '.github/workflows/frontend-build.yml'

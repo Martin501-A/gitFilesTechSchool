@@ -6,7 +6,7 @@ const getFizzBuzzValue = (i: number): string => {
     return 'Fizz'
   }
   if (i % 5 === 0) {
-    return 'Buzz'
+    return 'Buz'
   }
   return `${i}`
 }
